@@ -1,0 +1,258 @@
+$c-m-d: 12px // circle margind desktop
+$c-s-d: 18px // circle size desktop
+$l-w-d: 25vw // line width desktop
+$s-s-d: 18px // square size desktop
+
+    
+body
+    background: #040B1D
+
+.vw-50
+    width: 50vw
+
+.lines-block
+
+    .circles
+        display: flex
+        justify-content: center
+
+        .circle
+            width: $c-s-d
+            height: $c-s-d
+            border-radius: 50%
+            border: 2px solid #00EAC3
+            margin-right: $c-m-d
+            display: flex
+            justify-content: center
+            align-items: center
+
+            div
+                width: $c-s-d / 2 + 1px
+                height: $c-s-d / 2 + 1px
+                background-color: #00EAC3
+                border-radius: 50%
+
+            &:last-child
+                margin-right: 0
+    
+    .lines
+        display: flex
+        justify-content: center
+
+        .line
+
+            .line-img
+                display: none
+
+            .square
+                width: $s-s-d
+                height: $s-s-d
+                border: 1px solid #00EAC3
+                display: flex
+                justify-content: center
+                align-items: center
+                position: absolute
+
+                div
+                    width: $s-s-d / 2 + 2px
+                    height: $s-s-d / 2 + 2px
+                    background-color: #00EAC3
+            
+            .line-name
+                position: absolute
+                border: 2px solid
+                border-color: rgba(0, 0, 0, 0)
+                border-left-color: #00EAC3
+                border-right-color: rgba(0, 0, 0, 0.51)
+
+                &:before
+                    content: ""
+                    position: absolute
+                    width: 100%
+                    height: 2px
+                    top: -2px
+                    left: -2px
+                    background: linear-gradient(94.78deg, #00EAC3 -3.86%, rgba(0, 0, 0, 0.51) 90.02%)
+
+                &:after
+                    content: ""
+                    position: absolute
+                    width: 100%
+                    height: 2px
+                    bottom: -2px
+                    left: -2px
+                    background: linear-gradient(94.78deg, #00EAC3 -3.86%, rgba(0, 0, 0, 0.51) 90.02%)
+                
+                div
+                    padding: 2px 15px
+                    background: linear-gradient(94.78deg, #00EAC3 -3.86%, rgba(0, 0, 0, 0.51) 90.02%)
+
+        .line.l
+            position: relative
+
+            .l1
+                width: 0
+                height: 40px
+                border-right: 1.5px dashed #00EAC3
+            
+            .l2
+                position: absolute
+                width: $l-w-d
+                height: 0
+                border-top: 1.5px dashed #00EAC3
+                right: 0
+                top: 40px
+            
+            .l3
+                position: absolute
+                width: 0
+                border-right: 1.5px dashed #00EAC3
+                top: 40px
+                right: $l-w-d
+                
+            
+        .line.c
+            margin: 0 $c-s-d + $c-m-d - 1.5px
+            position: relative
+
+            .l1
+                width: 0
+                height: 80px
+                border-right: 1.5px dashed #00EAC3
+            
+            .line-text
+                position: absolute
+                top: 80px
+                left: -15vw
+                width: 30vw
+                border-radius: 25px
+                border: 1px solid #00EAC3
+            
+            .l2
+                position: absolute
+                top: 100px
+                width: 0
+                height: 80px
+                border-right: 1.5px dashed #00EAC3
+        
+        .line.r
+            position: relative
+
+            .l1
+                width: 0
+                height: 40px
+                border-right: 1.5px dashed #00EAC3
+
+            .l2
+                position: absolute
+                width: $l-w-d
+                height: 0
+                border-top: 1.5px dashed #00EAC3
+                left: 0
+                top: 40px
+            
+            .l3
+                position: absolute
+                width: 0
+                border-right: 1.5px dashed #00EAC3
+                top: 40px
+                left: $l-w-d
+
+@media screen and (max-width: 767px)
+
+    .lines-block
+
+        .lines-img-wrap
+            display: none
+
+        .lines
+
+            .line
+                
+                .line-img
+                    display: block !important
+                    width: 70vw
+                    height: 70vw
+                    top: 0
+                    left: 50vw
+            
+            .line.l
+
+                .l1
+                    height: 25px
+
+                .l2
+                    top: 25px
+                    width: 35vw
+
+                .l3
+                    right: 35vw
+                    top: 25px
+
+                .l4
+                    position: absolute
+                    left: -35vw
+                    border-top: 1.5px dashed #00EAC3
+                    height: 0
+                
+                .line-img   
+                    position: absolute
+                    top: 0
+                    left: 0
+
+            .line.c
+
+                .l1
+                    height: 40px
+                
+                .line-text
+                    width: 60vw
+                    left: -30vw
+                    top: 70px
+
+                .l2
+                    height: 0
+                    border-right: unset !important
+                    border-top: 1.5px dashed #00EAC3
+                    width: 35vw
+                    top: 40px
+                    right: 0
+                
+                .l3
+                    position: absolute
+                    width: 0
+                    border-right: 1.5px dashed #00EAC3
+                    top: 40px
+                    right: 35vw
+                
+                .l4
+                    position: absolute
+                    width: 15vw
+                    height: 0
+                    border-top: 1.5px dashed #00EAC3
+                    left: -35vw
+                
+                .line-img   
+                    position: absolute
+                    top: 0
+                    left: 0
+            
+            .line.r
+
+                .l2
+                    width: 30vw
+
+                .l3
+                    left: 30vw
+                
+                .l4
+                    position: absolute
+                    width: 15vw
+                    height: 0
+                    border-top: 1.5px dashed #00EAC3
+                    right: -30vw
+
+                .line-img   
+                    position: absolute
+                    top: 0
+

@@ -1,0 +1,350 @@
+/* === ADAPT === */
+
+
+/* === 1400 === */
+
+@media (max-width: 1400px) {
+    .circleboy img {
+        width: 30vw !important;
+    }
+    .insta img {
+        padding-left: 9vw !important;
+    }
+    .bg-circle.bc2 {
+        top: 183.93vh;
+    }
+    .bg-circle.bc3 {
+        top: 223.93vh;
+    }
+    .bg-circle.bc4 {
+        top: 303.93vh;
+    }
+    .bg-circle.bc5 {
+        top: 343.93vh;
+    }
+    .head1 {
+        margin-left: -1vw !important;
+    }
+}
+
+
+/* === 1200 === */
+
+@media (max-width: 1200px) {
+    .bigtext {
+        font-size: 4vw;
+    }
+    header {
+        height: 103vh;
+    }
+    .nav-item .nav-link {
+        font-size: 1.4vw;
+    }
+    .bg-circle {
+        opacity: 0.6;
+    }
+    .circleboy img {
+        width: 33vw !important;
+    }
+    .insta img {
+        padding-left: 7.5vw !important;
+    }
+    .paragraphbottom {
+        font-size: 14px !important;
+    }
+    .bg-circle.bc2 {
+        top: 213.93vh;
+    }
+    .bg-circle.bc3 {
+        top: 253.93vh;
+    }
+    .bg-circle.bc4 {
+        top: 333.93vh;
+    }
+    .bg-circle.bc5 {
+        top: 373.93vh;
+    }
+    .head,
+    .head1 {
+        text-align: center !important;
+    }
+    .head1 {
+        margin-left: -10vw !important;
+    }
+}
+
+
+/* === 1200/700 === */
+
+@media (max-width: 1200px) and (max-height: 700px) {
+    .investmentspc {
+        margin-top: -4.5vh !important;
+    }
+}
+
+
+/* === 992 === */
+
+@media (min-width: 992px) {
+    .mobilemidpart1,
+    .mobilemidpart2,
+    .containerbottommobile {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .footeragreement {
+        text-align: right !important;
+        margin-left: 6vw !important;
+    }
+    .footersafety {
+        text-align: right !important;
+        margin-top: -2vh !important;
+    }
+    .footeraboveline {
+        margin-left: -10vw !important;
+    }
+    .year {
+        margin-left: -6vw !important;
+    }
+    .bg-circle.bc2 {
+        top: 213.93vh;
+    }
+    .bg-circle.bc3 {
+        top: 303.93vh;
+    }
+    .bg-circle.bc4 {
+        top: 403.93vh;
+    }
+    .bg-circle.bc5 {
+        top: 503.93vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .bigtext {
+        font-size: 4.5vw;
+    }
+    header {
+        height: 100vh;
+    }
+    .bg-circle {
+        opacity: 0.7;
+    }
+    .circleboy img {
+        width: 40vw !important;
+    }
+    .circleboy {
+        text-align: center !important;
+    }
+    .paragraph {
+        font-size: 18px;
+        margin-top: 10vh;
+    }
+    .paragraph2formargin {
+        margin-top: 1vh !important;
+    }
+    .containerbottom,
+    .containermid {
+        display: none !important;
+    }
+    .mobilemidpart1,
+    .mobilemidpart2,
+    .smallheader3conteiner,
+    .containerbottommobile {
+        display: block !important;
+    }
+    .smallheader3 {
+        margin-top: -10vh !important;
+    }
+    .head1 {
+        display: none !important;
+    }
+    .head {
+        text-align: end !important;
+        margin-left: 10vw !important;
+    }
+}
+
+
+/* === 900 === */
+
+@media (max-width: 900px) {
+    .tiktokmobile img,
+    .instamobile img,
+    .foxmobile img,
+    .twitmobile img {
+        width: 15vw !important;
+    }
+}
+
+
+/* === 768 === */
+
+@media (max-width: 768px) {
+    .bigtext {
+        font-size: 5vw;
+    }
+    header {
+        height: 106vh;
+    }
+    .nav-item .nav-link {
+        font-size: 2vw;
+    }
+    .bg-circle {
+        opacity: 0.9;
+    }
+    .smallheader {
+        font-size: 30px;
+        margin-top: -5vh !important;
+    }
+    .tiktokmobile img,
+    .instamobile img,
+    .foxmobile img,
+    .twitmobile img {
+        width: 20vw !important;
+    }
+    .investmentsmobile {
+        font-size: 22px !important;
+        width: 300px;
+        height: 60px;
+    }
+    .smallheader3 {
+        font-size: 27px !important;
+    }
+    .paragraph7formargin {
+        margin-top: -6vh !important;
+    }
+    .stonks {
+        margin-top: -4vh !important;
+    }
+    .stonks img {
+        width: 65vw !important;
+    }
+}
+
+
+/* === 576 === */
+
+@media (max-width: 576px) {
+    .bigtext {
+        font-size: 7vw;
+        line-height: 5vh;
+    }
+    header {
+        height: 100vh;
+    }
+    .nav-item .nav-link {
+        font-size: 3vw;
+    }
+    .bigtext ::after {
+        content: "\A";
+        white-space: pre;
+    }
+    .pacuk {
+        padding-top: 4.3vh;
+    }
+    .bg-circle {
+        opacity: 1;
+    }
+    .tiktokmobile img,
+    .instamobile img,
+    .foxmobile img,
+    .twitmobile img {
+        width: 25vw !important;
+    }
+    .smallheader {
+        font-size: 28px !important;
+    }
+    .smallheader3 {
+        font-size: 25px !important;
+    }
+    .circleboy img {
+        width: 50vw !important;
+    }
+    .stonks img {
+        width: 70vw !important;
+    }
+    .investmentsmobile {
+        font-size: 18px !important;
+        width: 250px;
+        height: 50px;
+        margin-top: -1vh !important;
+    }
+}
+
+
+/* === 500 === */
+
+@media (max-width: 500px) {
+    .paragraph,
+    .paragraphbottommobile {
+        font-size: 15px !important;
+    }
+    .smallheader {
+        font-size: 24px !important;
+    }
+    .smallheader3 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-brand {
+        width: 45vw;
+    }
+}
+
+
+/* === 405 === */
+
+@media (max-width: 405px) {
+    .smallheader {
+        font-size: 20px !important;
+    }
+    .paragraph {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+    .smallheader3 {
+        font-size: 17.5px !important;
+    }
+    .circleboy img {
+        width: 67vw !important;
+    }
+    .stonks img {
+        width: 75vw !important;
+    }
+    .investmentsmobile {
+        font-size: 14px !important;
+        width: 200px;
+        height: 40px;
+        margin-top: -2vh !important;
+    }
+    .smallheadermargintop {
+        margin-top: -8vh !important;
+    }
+    .footeraboveline,
+    .bottomsmallheader,
+    .footeragreement,
+    .footersafety,
+    .year {
+        font-size: 11px !important;
+    }
+}
+
+
+/* === 350 === */
+
+@media (max-width: 350px) {
+    .smallheader {
+        font-size: 16px !important;
+    }
+    .smallheader3 {
+        font-size: 15.5px !important;
+    }
+    .circleboy img {
+        width: 60vw !important;
+    }
+}

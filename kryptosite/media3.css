@@ -1,0 +1,603 @@
+@media (min-width: 1400px) {
+    .chelcenter {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .ramka1,
+    .ramka3 {
+        width: 300px;
+        height: 270px;
+    }
+    .ramka2,
+    .ramka4 {
+        width: 300px;
+    }
+    .textbottompc1,
+    .textbottompc2,
+    .textbottompc3 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .paragraphbottomtop,
+    .paragraphbottombot {
+        width: 400px;
+    }
+    .paragraphbottom {
+        width: 420px;
+    }
+    .head1 {
+        margin-left: -1vw !important;
+    }
+    .bg-circle.bc2 {
+        top: 183.93vh;
+    }
+    .bg-circle.bc3 {
+        top: 223.93vh;
+    }
+    .bg-circle.bc4 {
+        top: 303.93vh;
+    }
+    .bg-circle.bc5 {
+        top: 343.93vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-item .nav-link {
+        font-size: 1.3vw;
+    }
+    .bigtext {
+        font-size: 45px;
+    }
+    .paragraphbottomtop,
+    .paragraphbottombot {
+        width: 400px;
+    }
+    .paragraphbottom {
+        width: 300px;
+    }
+    .head,
+    .head1 {
+        text-align: center !important;
+    }
+    .head1 {
+        margin-left: -10vw !important;
+    }
+    .bg-circle.bc2 {
+        top: 213.93vh;
+    }
+    .bg-circle.bc3 {
+        top: 253.93vh;
+    }
+    .bg-circle.bc4 {
+        top: 333.93vh;
+    }
+    .bg-circle.bc5 {
+        top: 373.93vh;
+    }
+}
+
+@media (max-width: 991px) {
+    .present,
+    .secondpartpc,
+    .firstpartpc,
+    .colmarginpc,
+    .yougetblock {
+        display: none;
+    }
+    .footeragreement {
+        text-align: right !important;
+        margin-left: 6vw !important;
+    }
+    .year {
+        margin-left: -6vw !important;
+    }
+    .footersafety {
+        text-align: right !important;
+        margin-top: -2vh !important;
+    }
+    .footeraboveline {
+        margin-left: -10vw !important;
+    }
+    .bg-circle.bc2 {
+        top: 213.93vh;
+    }
+    .bg-circle.bc3 {
+        top: 303.93vh;
+    }
+    .bg-circle.bc4 {
+        top: 403.93vh;
+    }
+    .bg-circle.bc5 {
+        top: 503.93vh;
+    }
+}
+
+@media(min-width:992px) {
+    .firstpartmobile,
+    .carousel,
+    .programmebottomblockmobile,
+    .bottombuttonmobile,
+    .yougetblockmobile {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .bigtext {
+        line-height: 45px;
+        margin-top: -1vh !important;
+    }
+    .smalltextheader {
+        font-size: 20px;
+    }
+    .pacuk {
+        margin-top: 5vh;
+    }
+    .podtext {
+        font-size: 18px;
+    }
+    .paragraph {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .smallheader1 {
+        margin-top: -10vh;
+    }
+    .smallheader3 {
+        margin-top: -8vh;
+    }
+    .smallheader1,
+    .smallheader3,
+    .smallheader2,
+    .smallheader4 {
+        font-size: 25px;
+    }
+    .takepart,
+    .takepart2,
+    .takepartmobile3 {
+        width: 200px;
+        height: 60px;
+        font-size: 16px;
+    }
+    .head1 {
+        display: none !important;
+    }
+    .head {
+        text-align: end !important;
+        margin-left: 10vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-item .nav-link {
+        font-size: 2vw;
+    }
+    .bigtext {
+        font-size: 35px;
+    }
+    .smalltextheader ::after {
+        white-space: pre-line;
+    }
+    .chelcentermobile {
+        width: 45vw !important;
+    }
+    .ramkamobile1,
+    .ramkamobile2,
+    .ramkamobile3,
+    .ramkamobile4 {
+        width: 300px;
+    }
+    .djostik,
+    .comp,
+    .money {
+        width: 120px;
+    }
+    .svin {
+        width: 95px;
+    }
+}
+
+@media (max-width: 700px) {
+    .smallheader1,
+    .smallheader2,
+    .smallheader3,
+    .smallheader4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .smallheadermini2,
+    .smallheadermini3 {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-item .nav-link {
+        font-size: 3vw;
+    }
+    .bigtext {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .smalltextheader {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .podtext {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .podtext1,
+    .podtext2,
+    .podtext3,
+    .podtext4,
+    .paragraph1,
+    .swipe,
+    .textbottompcmobile1,
+    .textbottompcmobile2,
+    .textbottompcmobile3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .paragraph {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .smallheadermini2,
+    .smallheadermini3 {
+        display: block;
+    }
+    .smallheader2,
+    .smallheader3 {
+        display: none;
+    }
+    .smallheadermini3 {
+        margin-top: -8vh;
+    }
+    .djostik,
+    .comp,
+    .money {
+        width: 120px;
+    }
+    .svin {
+        width: 95px;
+    }
+    .lines {
+        width: 17px;
+    }
+    .takepart,
+    .takepart2,
+    .takepartmobile3 {
+        width: 160px;
+        height: 55px;
+        font-size: 14px;
+    }
+    .paragraphbottommobile {
+        width: 80vw;
+        font-size: 14px;
+    }
+    .takepart2 {
+        width: 165px;
+    }
+}
+
+@media (min-width: 500px) {
+    .smallheadermini1 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .smallheadermini1 {
+        display: block;
+        margin-top: -10vh;
+    }
+    .smallheader1 {
+        display: none;
+    }
+    .firstpartmobile {
+        margin-top: 1vh !important;
+    }
+    .chelcentermobile {
+        width: 60vw !important;
+    }
+    .djostik,
+    .comp,
+    .money {
+        width: 100px;
+    }
+    .svin {
+        width: 85px;
+    }
+    .ramkamobile1,
+    .ramkamobile2,
+    .ramkamobile3,
+    .ramkamobile4 {
+        margin-top: 4vh !important;
+    }
+}
+
+@media (max-width: 467px) {
+    .lines {
+        margin-top: 2vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-brand {
+        width: 45vw;
+    }
+}
+
+@media (max-width: 440px) {
+    .lines {
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 405px) {
+    .footeraboveline,
+    .bottomsmallheader,
+    .footeragreement,
+    .footersafety,
+    .year {
+        font-size: 11px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .smallheadermini1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 325px) {
+    .lines {
+        margin-top: 6vh;
+    }
+}
+
+
+/* === 2560-320 WEIGHT === */
+
+@media (min-width: 2560px) {
+    .notebook {
+        width: 650px;
+    }
+}
+
+@media (max-width: 2560px) {
+    .line {
+        left: 56%;
+    }
+    .notebook {
+        width: 650px;
+    }
+}
+
+@media (max-width: 2500px) {
+    .line {
+        left: 55.95%;
+    }
+}
+
+@media (max-width: 2400px) {
+    .line {
+        left: 55.9%;
+    }
+}
+
+@media (max-width: 2300px) {
+    .line {
+        left: 55.85%;
+    }
+}
+
+@media (max-width: 2200px) {
+    .line {
+        left: 55.7%;
+    }
+}
+
+@media (max-width: 2100px) {
+    .line {
+        left: 55.6%;
+    }
+}
+
+@media (max-width: 2000px) {
+    .line {
+        left: 55.5%;
+    }
+}
+
+@media (max-width: 1900px) {
+    .line {
+        left: 55.4%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .line {
+        left: 55.3%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .line {
+        left: 55.1%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .line {
+        left: 54.95%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .line {
+        left: 54.8%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .line {
+        left: 54.6%;
+    }
+    .notebook {
+        width: 550px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .line {
+        left: 54.4%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .line {
+        left: 54.2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .line {
+        left: 56.2%;
+    }
+    .notebook {
+        width: 480px;
+    }
+    .textbottompc1,
+    .textbottompc2,
+    .textbottompc3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1150px) {}
+
+@media (max-width: 1000px) {
+    .line {
+        left: 56.1%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1400px) {
+    .notebook {
+        margin-left: 3vw;
+    }
+    .textandcirclebot {
+        margin-left: 10.7vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1200px) {
+    .notebook {
+        margin-left: 3vw;
+    }
+    .textandcirclebot {
+        margin-left: 11.5vw;
+    }
+}
+
+@media (max-height: 1800px) and (min-height: 1350px) {
+    .line {
+        height: 170px;
+    }
+}
+
+@media (max-height: 1350px) and (min-height: 1200px) {
+    .line {
+        height: 180px;
+    }
+}
+
+@media (max-height: 800px) and (min-height: 350px) {
+    .line {
+        height: 200px;
+    }
+}
+
+@media (max-height: 350px) and (min-height: 320px) {
+    .line {
+        height: 210px;
+    }
+}
+
+@media (max-width: 992px) {
+    .notebook {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-height: 700px) and (min-width: 993px)and (max-width: 2560px) {
+    .bigtext {
+        margin-top: -3vh;
+    }
+    .pacuk {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-height: 550px) and (min-width: 320px) and (max-width: 992px) {
+    .bigtext {
+        margin-top: -10vh !important;
+    }
+}
+
+@media (max-height: 550px) and (min-width: 320px) and (max-width: 576px) {
+    .bigtext {
+        margin-top: -10vh !important;
+    }
+}
+
+@media (max-height: 900px) {
+    .textbottompc1::before,
+    .textbottompc2::before,
+    .textbottompc3::before {
+        margin-bottom: -3.2vh;
+    }
+}
+
+@media (max-height: 700px) {
+    .textbottompc1::before,
+    .textbottompc2::before,
+    .textbottompc3::before {
+        margin-bottom: -4vh;
+    }
+}
+
+@media (max-height: 500px) {
+    .textbottompc1::before,
+    .textbottompc2::before,
+    .textbottompc3::before {
+        margin-bottom: -5.5vh;
+    }
+}
+
+@media (max-height: 400px) {
+    .textbottompc1::before,
+    .textbottompc2::before,
+    .textbottompc3::before {
+        margin-bottom: -7vh;
+    }
+}
+
+@media (max-height: 320px) {
+    .textbottompc1::before,
+    .textbottompc2::before,
+    .textbottompc3::before {
+        margin-bottom: -9vh;
+    }
+    .line {
+        height: 200px;
+    }
+}

@@ -1,0 +1,349 @@
+/* === ALL === */
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #040B1D;
+}
+
+
+/* === BG === */
+
+.bg-circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(110px);
+    opacity: 0.3;
+    width: 18.4vw;
+    height: 21.3vw;
+}
+
+.bg-circle.bc1 {
+    top: 123.93vh;
+    background: #125AE6;
+}
+
+.bg-circle.bc2 {
+    left: 81vw;
+    top: 163.0081871vh;
+    background: #00EAC3;
+}
+
+.bg-circle.bc3 {
+    top: 208.933018vh;
+    background: #77A6FF;
+}
+
+.bg-circle.bc4 {
+    height: 24.65vw !important;
+    left: 81vw;
+    top: 283.260819vh;
+    background: #00EAC3;
+}
+
+.bg-circle.bc5 {
+    height: 24.65vw !important;
+    top: 323.638596vh;
+    background: #00EAC3;
+}
+
+header {
+    background: url("foto/planeta.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/* === HEADER === */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat.ttf");
+}
+
+
+/* === NAVBAR === */
+
+.nav-item .nav-link {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 1vw;
+    color: white;
+    font-weight: 400;
+}
+
+.main-color {
+    color: #00EAC3 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(foto/menu.svg);
+    background-size: cover;
+}
+
+.navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+/* === H1 === */
+
+.bigtext {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: bold;
+    word-wrap: break-word;
+    line-height: 56px;
+}
+
+
+/* === MOUSE === */
+
+.pacuk {
+    text-align: center;
+    padding-top: 3vh;
+}
+
+
+/* === LOGO === */
+
+.navbar-brand {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+
+/* === MAIN === */
+
+
+/* === 1 PART === */
+
+.line1 {
+    width: 50px;
+    color: #00EAC3;
+}
+
+.smallheader,
+.smallheader3 {
+    font-family: "Montserrat";
+    color: #fff;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.paragraph {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    border: solid 1px transparent;
+    border-radius: 16px;
+    font-size: 18px;
+    background: linear-gradient(#040B1D, #040B1D), radial-gradient( #FFFFFF 0%, rgba(255, 255, 255, 0) 103%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    line-height: 30px !important;
+    font-weight: lighter !important;
+}
+
+.btn-circle {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    padding-left: 0;
+    padding-right: 0;
+    background: #fff;
+    border: 1px solid #040B1D;
+    outline: 1px solid #fff;
+}
+
+.btn-light {
+    --bs-btn-hover-bg: #00EAC3;
+    --bs-btn-hover-border-color: #040B1D;
+    --bs-btn-active-bg: #00EAC3;
+    --bs-btn-active-border-color: #040B1D;
+    --bs-btn-focus-shadow-rgb: 0, 234, 195;
+}
+
+.btn {
+    --bs-btn-focus-box-shadow: 0 0 0 0.1rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+}
+
+
+/* === 2 PART === */
+
+.fox {
+    padding-bottom: 2vh !important;
+}
+
+.twit {
+    padding-top: 3vh;
+}
+
+.insta {
+    margin-top: 5vh !important;
+}
+
+.insta img {
+    padding-left: 11vh !important;
+    margin-top: 2vh !important;
+}
+
+.tiktok img {
+    margin-left: 3vw !important;
+}
+
+
+/* === 3 PART === */
+
+.investmentsmobile {
+    background: linear-gradient(96.44deg, #117867 7.69%, #00EAC3 112.01%);
+    border-radius: 35px;
+    width: 350px;
+    height: 70px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00EAC3;
+}
+
+.paragraphbottommobile {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    border: solid 1px transparent;
+    border-radius: 16px;
+    font-size: 16px;
+    background: linear-gradient(#040B1D, #040B1D), linear-gradient(to right, #00EAC3 0%, rgba(21, 21, 21, 0) 130%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    line-height: 20px !important;
+    font-weight: lighter !important;
+}
+
+
+/* === FOOTER === */
+
+.head,
+.head1 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: white;
+}
+
+.footeraboveline {
+    padding-left: 5vw !important;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: white;
+}
+
+.bottomline {
+    height: 1px !important;
+    color: #fff;
+}
+
+.footeragreement,
+.footersafety,
+.year {
+    font-family: 'Montserrat';
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: white !important;
+    --bs-link-color: white;
+}
+
+a:hover {
+    --bs-link-hover-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.paragraphbottom {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    border: solid 1px transparent;
+    border-radius: 16px;
+    font-size: 16px;
+    background: linear-gradient(#040B1D, #040B1D), linear-gradient(to right, #00EAC3 0%, rgba(21, 21, 21, 0) 130%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    line-height: 20px !important;
+    font-weight: lighter;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.counter {
+    width: 50px;
+    background: #040B1D;
+    border: 1px solid #00EAC3;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 32px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    z-index: 1;
+}
+
+.investmentspc {
+    z-index: 1;
+    width: 250px;
+    height: 60px;
+    border-radius: 32px;
+    border: none;
+    background: linear-gradient(96.44deg, #117867 7.69%, #00EAC3 112.01%);
+    margin: auto !important;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -3vh !important;
+    border: 1px solid #00EAC3;
+}
+
+.dottedline1,
+.dottedline3 {
+    border-top: 1px dashed #00EAC3;
+    position: absolute;
+    width: 750px;
+    z-index: -1;
+    margin-left: 5vw !important;
+}
+
+.dottedline2 {
+    border-top: 1px dashed #00EAC3;
+    width: 280px !important;
+    transform: rotate(90deg);
+    z-index: -1;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 2vh !important;
+}

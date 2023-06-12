@@ -1,0 +1,496 @@
+/* === ALL === */
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #040B1D;
+}
+
+
+/* === BG === */
+
+.bg-circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(110px);
+    opacity: 0.3;
+    width: 18.4vw;
+    height: 21.3vw;
+}
+
+.bg-circle.bc1 {
+    left: 81vw;
+    top: 123.93vh;
+    background: #125AE6;
+}
+
+.bg-circle.bc2 {
+    top: 178.0081871vh;
+    background: #00EAC3;
+}
+
+.bg-circle.bc3 {
+    left: 81vw;
+    top: 223.933018vh;
+    background: #77A6FF;
+}
+
+.bg-circle.bc4 {
+    height: 24.65vw !important;
+    top: 283.260819vh;
+    background: #00EAC3;
+}
+
+.bg-circle.bc5 {
+    height: 24.65vw !important;
+    left: 81vw;
+    top: 343.638596vh;
+    background: #00EAC3;
+}
+
+header {
+    background: url("foto/digitalglobe.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/* === NAVBAR === */
+
+.nav-item .nav-link {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 1vw;
+    color: white;
+    font-weight: 400;
+}
+
+.navbar-toggler-icon {
+    background-image: url(foto/menu.svg);
+    background-size: cover;
+}
+
+.navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+/* === LOGO === */
+
+.navbar-brand {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat.ttf");
+}
+
+
+/* === H1 === */
+
+.bigtext {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 55px;
+    color: #fff;
+    word-wrap: break-word;
+    line-height: 56px;
+    margin-top: 8vh;
+}
+
+.main-color {
+    color: #00EAC3 !important;
+}
+
+
+/* === MOUSE === */
+
+.pacuk {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.smalltextheader {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+    word-wrap: break-word;
+    line-height: 56px;
+    margin-top: 2vh !important;
+}
+
+.takepart,
+.takepart2 {
+    display: inline-block;
+    font-family: "Montserrat";
+    width: 250px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid #00EAC3;
+    border-radius: 150px;
+    font-weight: 700;
+    text-align: center;
+}
+
+a:hover {
+    --bs-link-hover-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* === MAIN === */
+
+
+/* === 1 PART === */
+
+.smallheader1,
+.smallheader2,
+.smallheader3,
+.smallheader4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    color: #fff;
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+.smallheadermini1,
+.smallheadermini2,
+.smallheadermini3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+.paragraph {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: lighter !important;
+}
+
+.paragraph1 {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: lighter !important;
+}
+
+.podtext {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500px;
+}
+
+.podtext1,
+.podtext2,
+.podtext3,
+.podtext4 {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.secondpartpc {
+    margin-top: 12vh;
+}
+
+.ramka,
+.ramka1,
+.ramka2,
+.ramka3,
+.ramka4,
+.ramkamobile1,
+.ramkamobile2,
+.ramkamobile3,
+.ramkamobile4 {
+    border: solid 1px transparent;
+    background: linear-gradient(#040B1D, #040B1D), radial-gradient( #FFFFFF 0%, rgba(255, 255, 255, 0) 103%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 16px;
+}
+
+.ramka1,
+.ramka3 {
+    width: 400px;
+    height: 230px;
+}
+
+.ramka2,
+.ramka4 {
+    width: 400px;
+    height: 180px;
+}
+
+.ramkamobile1,
+.ramkamobile2,
+.ramkamobile3,
+.ramkamobile4 {
+    width: 400px;
+}
+
+.ramka2,
+.ramka4 {
+    margin-top: 10vh;
+}
+
+.djostik {
+    margin-top: -8vh !important;
+}
+
+.svin {
+    margin-top: -10vh !important;
+}
+
+.comp {
+    margin-top: -8vh;
+}
+
+.money {
+    margin-top: -7vh;
+}
+
+.podtext1::before,
+.podtext2::before {
+    display: inline;
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: #9F41FC;
+    filter: blur(80px);
+}
+
+.podtext1::before {
+    margin-left: 70px;
+    margin-top: -110px;
+}
+
+.podtext2::before {
+    margin-left: 30px;
+    margin-top: -110px;
+}
+
+.podtext3::before {
+    display: inline;
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: #00EAC3;
+    filter: blur(80px);
+    margin-top: -140px;
+    margin-left: 120px
+}
+
+.podtext4::before {
+    display: inline;
+    content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: linear-gradient(156.85deg, #4488FF 7.21%, #204A95 76.72%);
+    filter: blur(80px);
+    margin-top: -110px;
+    margin-left: 70px
+}
+
+.carousel-indicators [data-bs-target] {
+    border: 1px solid #00EAC3;
+    background-color: #00EAC3;
+    width: 50px;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.swipe {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #00EAC3;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.ramkamobile1,
+.ramkamobile2,
+.ramkamobile3,
+.ramkamobile4 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.chelcentermobile {
+    width: 40vw !important;
+}
+
+.textbottompc1,
+.textbottompc2,
+.textbottompc3 {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+    color: white;
+    vertical-align: baseline;
+}
+
+.textbottompcmobile1,
+.textbottompcmobile2,
+.textbottompcmobile3 {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 25px;
+    font-style: normal;
+    color: white;
+    vertical-align: baseline;
+}
+
+.textbottompc1::before,
+.textbottompc2::before,
+.textbottompc3::before {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #00EAC3;
+    border: 2px solid #040B1D;
+    outline: 1px solid #00EAC3;
+    z-index: 1;
+    margin-left: -8.2% !important;
+    margin-bottom: -2.5vh;
+}
+
+.programmebottomblock {
+    margin-top: 8vh;
+}
+
+.textandcirclebot {
+    margin-left: 7vw;
+}
+
+.line {
+    border-right: 1px dashed #00EAC3;
+    content: "";
+    display: inline;
+    height: 200px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 0;
+}
+
+.colmarginpc {
+    margin-top: 7vh;
+}
+
+.notebook {
+    width: 700px;
+}
+
+.paragraphbottom,
+.paragraphbottombot,
+.paragraphbottomtop,
+.paragraphbottommobile {
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    border: solid 1px #00EAC3;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 22px !important;
+}
+
+.paragraphbottomtop,
+.paragraphbottombot,
+.paragraphbottommobile {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraphbottom {
+    width: 520px;
+}
+
+.takepart3,
+.takepartmobile3 {
+    display: inline-block;
+    font-family: "Montserrat";
+    width: 210px;
+    height: 65px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid #00EAC3;
+    border-radius: 150px;
+    font-weight: 700;
+    text-align: center;
+    /* background: linear-gradient(96.44deg, #117867 7.69%, #00EAC3 112.01%); */
+    background: linear-gradient(242.05deg, #00EAC3 9.61%, rgba(217, 217, 217, 0) 91.51%);
+}
+
+
+/* === FOOTER === */
+
+.footeragreement,
+.footersafety,
+.year {
+    font-family: 'Montserrat';
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    color: white !important;
+    --bs-link-color: white;
+}
+
+.bottomline {
+    height: 1px !important;
+    color: #fff;
+}
+
+.head,
+.head1 {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: white;
+}
+
+.footeraboveline {
+    padding-left: 5vw !important;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: white;
+}

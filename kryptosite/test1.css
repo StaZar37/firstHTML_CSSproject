@@ -1,0 +1,196 @@
+body {
+  background: #040B1D; }
+
+.vw-50 {
+  width: 50vw; }
+
+.lines-block .circles {
+  display: flex;
+  justify-content: center; }
+  .lines-block .circles .circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #00EAC3;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .lines-block .circles .circle div {
+      width: 10px;
+      height: 10px;
+      background-color: #00EAC3;
+      border-radius: 50%; }
+    .lines-block .circles .circle:last-child {
+      margin-right: 0; }
+.lines-block .lines {
+  display: flex;
+  justify-content: center; }
+  .lines-block .lines .line .line-img {
+    display: none; }
+  .lines-block .lines .line .square {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #00EAC3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; }
+    .lines-block .lines .line .square div {
+      width: 11px;
+      height: 11px;
+      background-color: #00EAC3; }
+  .lines-block .lines .line .line-name {
+    position: absolute;
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #00EAC3;
+    border-right-color: rgba(0, 0, 0, 0.51); }
+    .lines-block .lines .line .line-name:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: -2px;
+      left: -2px;
+      background: linear-gradient(94.78deg, #00EAC3 -3.86%, rgba(0, 0, 0, 0.51) 90.02%); }
+    .lines-block .lines .line .line-name:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: -2px;
+      left: -2px;
+      background: linear-gradient(94.78deg, #00EAC3 -3.86%, rgba(0, 0, 0, 0.51) 90.02%); }
+    .lines-block .lines .line .line-name div {
+      padding: 2px 15px;
+      background: linear-gradient(94.78deg, #00EAC3 -3.86%, rgba(0, 0, 0, 0.51) 90.02%); }
+  .lines-block .lines .line.l {
+    position: relative; }
+    .lines-block .lines .line.l .l1 {
+      width: 0;
+      height: 40px;
+      border-right: 1.5px dashed #00EAC3; }
+    .lines-block .lines .line.l .l2 {
+      position: absolute;
+      width: 25vw;
+      height: 0;
+      border-top: 1.5px dashed #00EAC3;
+      right: 0;
+      top: 40px; }
+    .lines-block .lines .line.l .l3 {
+      position: absolute;
+      width: 0;
+      border-right: 1.5px dashed #00EAC3;
+      top: 40px;
+      right: 25vw; }
+  .lines-block .lines .line.c {
+    margin: 0 28.5px;
+    position: relative; }
+    .lines-block .lines .line.c .l1 {
+      width: 0;
+      height: 80px;
+      border-right: 1.5px dashed #00EAC3; }
+    .lines-block .lines .line.c .line-text {
+      position: absolute;
+      top: 80px;
+      left: -15vw;
+      width: 30vw;
+      border-radius: 25px;
+      border: 1px solid #00EAC3; }
+    .lines-block .lines .line.c .l2 {
+      position: absolute;
+      top: 100px;
+      width: 0;
+      height: 80px;
+      border-right: 1.5px dashed #00EAC3; }
+  .lines-block .lines .line.r {
+    position: relative; }
+    .lines-block .lines .line.r .l1 {
+      width: 0;
+      height: 40px;
+      border-right: 1.5px dashed #00EAC3; }
+    .lines-block .lines .line.r .l2 {
+      position: absolute;
+      width: 25vw;
+      height: 0;
+      border-top: 1.5px dashed #00EAC3;
+      left: 0;
+      top: 40px; }
+    .lines-block .lines .line.r .l3 {
+      position: absolute;
+      width: 0;
+      border-right: 1.5px dashed #00EAC3;
+      top: 40px;
+      left: 25vw; }
+
+@media screen and (max-width: 767px) {
+  .lines-block .lines-img-wrap {
+    display: none; }
+  .lines-block .lines .line .line-img {
+    display: block !important;
+    width: 70vw;
+    height: 70vw;
+    top: 0;
+    left: 50vw; }
+  .lines-block .lines .line.l .l1 {
+    height: 25px; }
+  .lines-block .lines .line.l .l2 {
+    top: 25px;
+    width: 35vw; }
+  .lines-block .lines .line.l .l3 {
+    right: 35vw;
+    top: 25px; }
+  .lines-block .lines .line.l .l4 {
+    position: absolute;
+    left: -35vw;
+    border-top: 1.5px dashed #00EAC3;
+    height: 0; }
+  .lines-block .lines .line.l .line-img {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .lines-block .lines .line.c .l1 {
+    height: 40px; }
+  .lines-block .lines .line.c .line-text {
+    width: 60vw;
+    left: -30vw;
+    top: 70px; }
+  .lines-block .lines .line.c .l2 {
+    height: 0;
+    border-right: unset !important;
+    border-top: 1.5px dashed #00EAC3;
+    width: 35vw;
+    top: 40px;
+    right: 0; }
+  .lines-block .lines .line.c .l3 {
+    position: absolute;
+    width: 0;
+    border-right: 1.5px dashed #00EAC3;
+    top: 40px;
+    right: 35vw; }
+  .lines-block .lines .line.c .l4 {
+    position: absolute;
+    width: 15vw;
+    height: 0;
+    border-top: 1.5px dashed #00EAC3;
+    left: -35vw; }
+  .lines-block .lines .line.c .line-img {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .lines-block .lines .line.r .l2 {
+    width: 30vw; }
+  .lines-block .lines .line.r .l3 {
+    left: 30vw; }
+  .lines-block .lines .line.r .l4 {
+    position: absolute;
+    width: 15vw;
+    height: 0;
+    border-top: 1.5px dashed #00EAC3;
+    right: -30vw; }
+  .lines-block .lines .line.r .line-img {
+    position: absolute;
+    top: 0; } }
+
+/*# sourceMappingURL=test1.css.map */
